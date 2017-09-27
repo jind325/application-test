@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8"> 
 	<title>user info recoder</title> 
 	<script src="//ajax.googleapis.com/ajax/libs/mootools/1.5.2/mootools.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -17,11 +16,12 @@
 	$name;
 	$email;
 	while ($i>=0 && $i<=4){
-	    $i++;
 	    $name=$people[$i]['first_name']." ".$people[$i]['last_name'];
 	    $email=$people[$i]['email'];
-        echo "<button onclick="."'"."myFun("."\"".$name."\"".","."\""." and ".$email."\"".")'>"."Person: ".$i."</button>"."Id: ".$people[$i]['id']." First_Name: ".$people[$i]['first_name']." Last_Name: ".$people[$i]['last_name']." Email: ".$people[$i]['email']; 
+	    $num=$i+1;
+        echo "<button onclick="."'"."myFun("."\"".$name."\"".","."\""." and ".$email."\"".")'>"."Person: ".$num."</button>"."Id: ".$people[$i]['id']." First_Name: ".$people[$i]['first_name']." Last_Name: ".$people[$i]['last_name']." Email: ".$people[$i]['email']; 
         echo "</br>";
+        $i++;
         }
  	?> 
  	<script>
