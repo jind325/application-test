@@ -11,23 +11,23 @@
         ?>
 </head>
 <body>
-	<?php
-	$i=0;
-	$name;
-	$email;
-	while ($i>=0 && $i<=4){
-	    $name=$people[$i]['first_name']." ".$people[$i]['last_name'];
-	    $email=$people[$i]['email'];
-	    $num=$i+1;
+    <?php
+    $i=0;
+    $name;
+    $email;
+    while ($i>=0 && $i<=4){
+        $name=$people[$i]['first_name']." ".$people[$i]['last_name'];
+	$email=$people[$i]['email'];
+	$num=$i+1;
         echo "<button onclick="."'"."myFun("."\"".$name."\"".","."\""." and ".$email."\"".")'>"."Person: ".$num."</button>"."Id: ".$people[$i]['id']."; First_Name: ".$people[$i]['first_name']."; Last_Name: ".$people[$i]['last_name']."; Email: ".$people[$i]['email']; 
         echo "</br>";
         $i++;
-        }
- 	?> 
- 	<script>
- 	function myFun(Name, Email){
- 	 	alert("the name and email of this people is: "+ Name + Email);
+    }
+    ?> 
+    <script>
+        function myFun(Name, Email){
+ 	    alert("the name and email of this people is: "+ Name + Email);
  	}
- 	</script>
+    </script>
 </body>
 </html>
