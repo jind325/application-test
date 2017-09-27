@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>user info recoder</title> 
-	<script src="//ajax.googleapis.com/ajax/libs/mootools/1.5.2/mootools.min.js"></script>
+    <title>application test</title> 
+    <script src="//ajax.googleapis.com/ajax/libs/mootools/1.5.2/mootools.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
     <?php
