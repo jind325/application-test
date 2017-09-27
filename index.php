@@ -26,7 +26,7 @@
     ?> 
     <script>
         function myFun(Name, Email){
- 	    alert("the name and email of this people is: "+ Name + Email);
+ 	    alert("the name and email of this people are: "+ Name + Email);
  	}
     </script>
 </body>
