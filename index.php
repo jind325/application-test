@@ -19,7 +19,7 @@
 	    $name=$people[$i]['first_name']." ".$people[$i]['last_name'];
 	    $email=$people[$i]['email'];
 	    $num=$i+1;
-        echo "<button onclick="."'"."myFun("."\"".$name."\"".","."\""." and ".$email."\"".")'>"."Person: ".$num."</button>"."Id: ".$people[$i]['id']." First_Name: ".$people[$i]['first_name']." Last_Name: ".$people[$i]['last_name']." Email: ".$people[$i]['email']; 
+        echo "<button onclick="."'"."myFun("."\"".$name."\"".","."\""." and ".$email."\"".")'>"."Person: ".$num."</button>"."Id: ".$people[$i]['id']."; First_Name: ".$people[$i]['first_name']."; Last_Name: ".$people[$i]['last_name']."; Email: ".$people[$i]['email']; 
         echo "</br>";
         $i++;
         }
